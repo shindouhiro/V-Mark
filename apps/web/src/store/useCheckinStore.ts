@@ -255,7 +255,7 @@ export const useCheckinStore = create<CheckinState>()(
       },
     }),
     {
-      name: 'checkin-storage',
+      name: 'mini-vue-v1-storage',
       // Ensure sync settings are persisted
       partialize: (state) => ({
         lessons: state.lessons,
